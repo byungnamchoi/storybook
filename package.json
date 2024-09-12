@@ -1,0 +1,31 @@
+{
+  "name": "storybook",
+  "version": "1.0.0",
+  "description": "스토리북 가이드",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@chromatic-com/storybook": "^1.9.0",
+    "@storybook/addon-essentials": "^8.3.0",
+    "@storybook/addon-interactions": "^8.3.0",
+    "@storybook/addon-links": "^8.3.0",
+    "@storybook/addon-webpack5-compiler-swc": "^1.0.5",
+    "@storybook/blocks": "^8.3.0",
+    "@storybook/html": "^8.3.0",
+    "@storybook/html-webpack5": "^8.3.0",
+    "@storybook/preset-scss": "^1.0.3",
+    "@storybook/test": "^8.3.0",
+    "css-loader": "^7.1.2",
+    "sass": "^1.78.0",
+    "sass-loader": "^16.0.1",
+    "storybook": "^8.3.0",
+    "style-loader": "^4.0.0"
+  }
+}
